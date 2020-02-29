@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed92d3a-fa34-42d0-813f-2c815b651e8c" name="Default Changelist" comment="" />
+    <list default="true" id="1ed92d3a-fa34-42d0-813f-2c815b651e8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YUHh88Z57pY3wTNjqJoM8nwWbk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
@@ -37,7 +46,7 @@
       <recent name="com.target.account" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogInTest">
+  <component name="RunManager" selected="JUnit.LogInTest.addAddressTest">
     <configuration name="LogInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.target.account.LogInTest" />
       <module name="SeleniumMavenproject" />
@@ -81,8 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogInTest.addAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMavenproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.target.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.target.account" />
+      <option name="MAIN_CLASS_NAME" value="com.target.account.LogInTest" />
+      <option name="METHOD_NAME" value="addAddressTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogInTest.addAddressTest" />
         <item itemvalue="JUnit.LogInTest" />
         <item itemvalue="JUnit.AddAddressTest" />
         <item itemvalue="Application.LogInTest" />
@@ -103,26 +129,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1540" height="286" key="GridCell.Tab.0.bottom" timestamp="1582998666991">
+    <state width="1540" height="286" key="GridCell.Tab.0.bottom" timestamp="1583000147435">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1078" height="250" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582996938140" />
-    <state width="1540" height="286" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1582998666991" />
-    <state width="1540" height="286" key="GridCell.Tab.0.center" timestamp="1582998666990">
+    <state width="1540" height="286" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1583000147435" />
+    <state width="1540" height="286" key="GridCell.Tab.0.center" timestamp="1583000147434">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1078" height="250" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582996938139" />
-    <state width="1540" height="286" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1582998666990" />
-    <state width="1540" height="286" key="GridCell.Tab.0.left" timestamp="1582998666990">
+    <state width="1540" height="286" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1583000147434" />
+    <state width="1540" height="286" key="GridCell.Tab.0.left" timestamp="1583000147433">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1078" height="250" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582996938138" />
-    <state width="1540" height="286" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1582998666990" />
-    <state width="1540" height="286" key="GridCell.Tab.0.right" timestamp="1582998666991">
+    <state width="1540" height="286" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1583000147433" />
+    <state width="1540" height="286" key="GridCell.Tab.0.right" timestamp="1583000147434">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1078" height="250" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582996938139" />
-    <state width="1540" height="286" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1582998666991" />
+    <state width="1540" height="286" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1583000147434" />
     <state x="65" y="87" key="SettingsEditor" timestamp="1582991196404">
       <screen x="0" y="23" width="1680" height="960" />
     </state>

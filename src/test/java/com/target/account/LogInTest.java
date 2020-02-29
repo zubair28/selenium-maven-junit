@@ -18,6 +18,8 @@ public class LogInTest extends BaseTest{
     public void addAddressTest() throws InterruptedException {
         loginTest();
         driver.get("https://www.boxed.com/account/address");
+        driver.findElementByXPath("//*[@id='address-list-v2']//button").click();
+        Thread.sleep(5000);
 
     }
 
