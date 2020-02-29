@@ -19,7 +19,7 @@ public class LogInTest extends BaseTest{
         loginTest();
         driver.get("https://www.boxed.com/account/address");
         driver.findElementByXPath("//*[@id='address-list-v2']//button").click();
-        Thread.sleep(5000);
+        Thread.sleep(6000);
 
     }
 
