@@ -38,7 +38,7 @@ public class LogInTest extends BaseTest{
     public void removeAddressTest() throws InterruptedException {
         loginTest();
         driver.get("https://www.boxed.com/account/address");
-        driver.findElementByXPath("//*[text() = 'Remove']").click();
+        driver.findElementByXPath("//a[text() = 'Remove']").click();
         Thread.sleep(5000);
 
     }
