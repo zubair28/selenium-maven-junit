@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed92d3a-fa34-42d0-813f-2c815b651e8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Driver/chromedriver-80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/target/account/LogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/AddAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/AddAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/AddAddressTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/LogInTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,53 +45,49 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Driver" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.target.account" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Driver" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogInTest.removeAddressTest">
-    <configuration name="LogInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.target.account.LogInTest" />
+  <component name="RunManager" selected="JUnit.LogInTest.loginTest">
+    <configuration name="AddAddressTest.addaddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumMavenproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.target.account.*" />
+          <option name="PATTERN" value="com.boxed.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.boxed.account" />
+      <option name="MAIN_CLASS_NAME" value="com.boxed.account.AddAddressTest" />
+      <option name="METHOD_NAME" value="addaddress" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTest.addAddressTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumMavenproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.target.account.*" />
+          <option name="PATTERN" value="com.boxed.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.target.account" />
-      <option name="MAIN_CLASS_NAME" value="com.target.account.AddAddressTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumMavenproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.target.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.target.account" />
-      <option name="MAIN_CLASS_NAME" value="com.target.account.LogInTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.boxed.account" />
+      <option name="MAIN_CLASS_NAME" value="com.boxed.account.LogInTest" />
+      <option name="METHOD_NAME" value="addAddressTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,16 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInTest.removeAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumMavenproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.target.account.*" />
+          <option name="PATTERN" value="com.boxed.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.target.account" />
-      <option name="MAIN_CLASS_NAME" value="com.target.account.LogInTest" />
+      <option name="PACKAGE_NAME" value="com.boxed.account" />
+      <option name="MAIN_CLASS_NAME" value="com.boxed.account.LogInTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest.removeAddressTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMavenproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boxed.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.boxed.account" />
+      <option name="MAIN_CLASS_NAME" value="com.boxed.account.LogInTest" />
       <option name="METHOD_NAME" value="removeAddressTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -124,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogInTest.removeAddressTest" />
+        <item itemvalue="JUnit.LogInTest.loginTest" />
+        <item itemvalue="JUnit.LogInTest.addAddressTest (1)" />
+        <item itemvalue="JUnit.AddAddressTest.addaddress" />
+        <item itemvalue="JUnit.LogInTest.removeAddressTest (1)" />
         <item itemvalue="JUnit.LogInTest.addAddressTest" />
-        <item itemvalue="JUnit.LogInTest" />
-        <item itemvalue="JUnit.AddAddressTest" />
-        <item itemvalue="Application.LogInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,33 +164,70 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="286" key="GridCell.Tab.0.bottom" timestamp="1583196839990">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="395" y="106" key="CommitChangelistDialog2" timestamp="1584070849314">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="286" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583196839990" />
+    <state x="395" y="106" key="CommitChangelistDialog2/0.23.1680.961@0.23.1680.961" timestamp="1584070849314" />
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom" timestamp="1584125794717">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583627341954" />
     <state width="765" height="286" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1583015091283" />
-    <state width="1638" height="286" key="GridCell.Tab.0.center" timestamp="1583196839989">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1584125794717" />
+    <state width="1638" height="286" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1583620952539" />
+    <state width="1638" height="327" key="GridCell.Tab.0.center" timestamp="1584125794716">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="286" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583196839989" />
+    <state width="1638" height="327" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583627341953" />
     <state width="765" height="286" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1583015091282" />
-    <state width="1638" height="286" key="GridCell.Tab.0.left" timestamp="1583196839988">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1584125794716" />
+    <state width="1638" height="286" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1583620952539" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left" timestamp="1584125794716">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="286" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583196839988" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583627341952" />
     <state width="765" height="286" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1583015091282" />
-    <state width="1638" height="286" key="GridCell.Tab.0.right" timestamp="1583196839989">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1584125794716" />
+    <state width="1638" height="286" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1583620952538" />
+    <state width="1638" height="327" key="GridCell.Tab.0.right" timestamp="1584125794717">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="286" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583196839989" />
+    <state width="1638" height="327" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583627341953" />
     <state width="765" height="286" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1583015091283" />
-    <state x="65" y="87" key="SettingsEditor" timestamp="1582991196404">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1638" height="327" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1584125794717" />
+    <state width="1638" height="286" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1583620952539" />
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1583854152611">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1583854152611" />
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1583617401510" />
+    <state width="1638" height="310" key="GridCell.Tab.1.center" timestamp="1583854152610">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1583854152610" />
+    <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1583617401509" />
+    <state width="1638" height="310" key="GridCell.Tab.1.left" timestamp="1583854152609">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1583854152609" />
+    <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1583617401509" />
+    <state width="1638" height="310" key="GridCell.Tab.1.right" timestamp="1583854152610">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1583854152610" />
+    <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1583617401509" />
+    <state x="65" y="87" key="SettingsEditor" timestamp="1584042942508">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="65" y="87" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1582991196404" />
+    <state x="65" y="87" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1584042942508" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1582997364645">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.960@0.23.1680.960" timestamp="1582997364645" />
+    <state x="217" y="201" key="new project wizard" timestamp="1584048263424">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="217" y="201" key="new project wizard/0.23.1680.961@0.23.1680.961" timestamp="1584048263424" />
   </component>
 </project>
