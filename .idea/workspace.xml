@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed92d3a-fa34-42d0-813f-2c815b651e8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver-80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/AddAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/AddAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/target/account/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boxed/account/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/AddAddressTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/target/account/LogInTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/boxed/account/AddAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/boxed/account/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/boxed/account/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +159,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="497" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584583279836">
+      <screen x="0" y="23" width="1680" height="948" />
+    </state>
+    <state x="497" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.948@0.23.1680.948" timestamp="1584583279836" />
     <state x="395" y="106" key="CommitChangelistDialog2" timestamp="1584070849314">
       <screen x="0" y="23" width="1680" height="961" />
     </state>

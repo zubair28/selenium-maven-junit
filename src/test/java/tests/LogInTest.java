@@ -1,17 +1,22 @@
-package com.boxed.account;
+package tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
+import com.boxed.accounts.pages.*;
+import pages.HomePage;
+import pages.LogInPage;
 
 public class LogInTest extends BaseTest{
 
     @Test
     public void loginTest() throws InterruptedException {
-        driver.findElement(By.xpath("//*[@id='emailForLogin']")).sendKeys("asadinusa@gmail.com");
-        driver.findElement(By.xpath("//*[@id='passwordForLogin']")).sendKeys("Myfamily01");
-        driver.findElement(By.xpath("//form//button[text()='LOG IN']")).click();
+        HomePage home = new HomePage(driver);
+        home.clickLogin();
+        LogInPage login = new LogInPage(driver);
+        login.enterEmail("asadinusa@gmail.com");
+        login.enterPassword("Myfamily01");
         Thread.sleep(5000);
     }
 
